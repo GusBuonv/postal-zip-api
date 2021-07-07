@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+	  "module": "CommonJS",
+	  "target": "ES2019",
+	  "lib": [
+      "ESNext",
+      "DOM" // NOTE: This is a Node.js project. As such, DOM entities such as `document` & `window` don't exist. However, the DOM lib is needed for Node.js object declarations such as `URL`.
+	  ],
+	  "allowJs": false,
+	  "strict": true,
+	  "outDir": "dist",
+	  "experimentalDecorators": true,
+	  "declaration": true,
+	  "emitDecoratorMetadata": true
+	},
+	"exclude": [
+	  "**/__test__/**/*",
+	  "node_modules",
+	  "dist"
+	],
+	"include": [
+	  "src/**/*",
+	  "test/**/*"
+	]
+}
