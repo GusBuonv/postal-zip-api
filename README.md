@@ -14,6 +14,10 @@ A toy REST API for managing a list of ZIP codes.
 
     `yarn install` OR `npm install`
 
+2. Rename the provided sample environment variable declarations
+
+    `cp .env.sample .env`
+
 ## **Usage**
 
 1. Start the server:
